@@ -1,0 +1,29 @@
+header{
+    & .header_logo img{
+        width: 85px;
+        margin: 7px;
+    }
+
+    & .header_login{
+        margin-right: 30px;
+        
+        & img{
+            width: 35px;
+            padding: 0px;
+        }
+        & li{
+            list-style: none;
+            padding: 0px;
+            position: absolute;
+            width: 90px;
+        }
+    }
+
+    & .header_help a img{
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+    }
+    
+
+}
