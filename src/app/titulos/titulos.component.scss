@@ -4,12 +4,16 @@ header{
         opacity: 0.5;
 
     }
-    & img{
+    & input{
         height: 30px;
         width: 55px;
         padding: 0px;
         justify-content: center;
+        border-radius: 5px;
+        border: 0;
+        outline: none;
     }  
 }
+
 
 
