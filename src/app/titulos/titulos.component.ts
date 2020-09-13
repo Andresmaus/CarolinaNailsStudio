@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-titulos',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TitulosComponent implements OnInit {
 
-  constructor() { }
+  //modificacion del contructor para q no salga el boton login private route: ActivatedRoute
+  //se suscribe a los parametros que trae la ruta private route: Router
+  constructor(public router: Router) {
+   
+  }
 
   ngOnInit(): void {
   }
