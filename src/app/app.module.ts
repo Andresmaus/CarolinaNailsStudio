@@ -7,6 +7,7 @@ import { TitulosComponent } from './titulos/titulos.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { HelpComponent } from './help/help.component';
+import { UsuarioComponent } from './usuario/usuario.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HelpComponent } from './help/help.component';
     TitulosComponent,
     HomeComponent,
     LoginComponent,
-    HelpComponent
+    HelpComponent,
+    UsuarioComponent
   ],
   imports: [
     BrowserModule,

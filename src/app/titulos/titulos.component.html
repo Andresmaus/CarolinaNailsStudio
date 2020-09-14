@@ -7,7 +7,7 @@
                   <a class="nav-link active" [routerLink]="['/login']" *ngIf="router.url !== '/login'">Iniciar Sesión</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="help.html">Ayuda</a>
+                  <a class="nav-link" [routerLink]="['/help']" *ngIf="router.url !== '/help'">Ayuda</a>
                 </li>
               </ul>
       </nav>      

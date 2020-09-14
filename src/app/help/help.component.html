@@ -6,33 +6,33 @@
 
 <section class="formulario_contacto">
   <div>
-
+    <ul class="texto_form d-flex justify-content-center">Cuentanos en que podemos ayudarte</ul>
   </div>
 
-    <div>
-      <ul>Cuentanos en que podemos ayudarte</ul>
-
-      <form>
+    <div class="d-flex justify-content-center">       
+      <form class="formulario_pqrs">
           <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <label for="exampleFormControlSelect1">Tipo de Solicitud</label>
+          <select class="form-control" id="exampleFormControlSelect1" required>
+            <option value="" disabled selected hidden>Selecciona una opcion</option>
             <option>Petición</option>
             <option>Queja</option>
             <option>Reclamo</option>
             <option>Solicitud</option>
-            <option>Cambio y/o Cancelación</option>
+            <option>Cambio y/o Cancelación de citas</option>
             <option>Problemas con el Inicio de Sesión</option>
           </select>
         </div>
 
         <div class="form-group">
           <label for="exampleFormControlInput1">Nombre Completo</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
         </div>
 
         <div class="form-group">
           <label for="exampleFormControlSelect1">Tipo de Identificación</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" id="exampleFormControlSelect1" required>
+            <option value="" disabled selected hidden>Selecciona una opcion</option>
             <option>C.C.</option>
             <option>Identificación extranjera</option>
             <option>Tarjeta de Identidad</option>
@@ -42,20 +42,56 @@
 
         <div class="form-group">
           <label for="exampleFormControlInput1">Documento de Identidad</label>
-          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Identificación numerica">
+          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Identificación" required>
+        </div>
+
+        <div>
+          <label for="exampleFormControlInput1">Correo electronico</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">@</div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email" required>
+          </div>
         </div>
 
         <div class="form-group">
-          <label for="exampleFormControlInput1">Nombre Completo</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+          <label for="exampleFormControlInput1">Ciudad</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ciudad" required>
         </div>
 
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Dirección</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dirección" required>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Telefono</label>
+          <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Telefono" required>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Detalle</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlFile1">Adjuntar archivo (.Pdf, .Png, .Jpg)</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+
+        <div class="tratamiento_datos form-check">
+          <input class="input_datos form-check-input" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..." required>
+          <li>Con el diligenciamiento de éste formulario, autorizo de manera expresa el tratamiento de mis datos personales de acuerdo con la presente autorización de tratamiento de datos.</li>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary mb-2">Enviar!</button>
+        </div>
+      
+        
       </form>
     </div>
-
-  <div>
-  
-  </div>
 </section>
 
 <footer>
