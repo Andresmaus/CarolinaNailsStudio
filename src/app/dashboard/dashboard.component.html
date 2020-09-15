@@ -1,30 +1,60 @@
 <div class="row">
-     <!--menu-->
-     <div class="menuusuario col-md-3 col-lg-2">
-        <ul class="nav flex-column">
+        <nav id="menuLateral" class="col-md-3 col-lg-2 d-md-block bg-light collapse">
+        
             <div class="buscador input-group-prepend">
                 <input class="form-control mr-sm-2" type="search" placeholder="Buscar.." aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
                     <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
                     </svg>
                 </button>
             </div>
-
-            <li class="nav-item" [routerLink]="['/iniciousuario']">Inicio</li>
-            <li class="nav-item" [routerLink]="['/usuario']">Mis datos</li>
-            <li class="nav-item">Agendamiento</li>
-            <li class="nav-item">Mis diseños</li>
-        </ul>
-    </div>
-    <!--cuerpo-->
-    <div>
-
-    </div>
-
     
+            <div class="sidebar-sticky pt-3">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" [routerLink]="['/iniciousuario']">
+                    <span data-feather="home"></span>Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/usuario']">
+                    <span data-feather="profile"></span>Mis Datos
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" >
+                    <span data-feather="scheduling"></span>Mis Agendamientos
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" >
+                    <span data-feather="calendar"></span>Calendario de Citas
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" >
+                    <span data-feather="designs"></span>Mis Diseños
+                  </a>
+                </li>
+              </ul>
+            </div>
+    
+            <ul class="salir navbar-nav px-3">
+                <li class="nav-item text-nowrap">
+                  <a class="nav-link" href="#">Cerrar Sesión</a>
+                </li>
+              </ul>
+          </nav>
+      
+    
+        
     <div class="col-md-9 col-lg-10">
+            <!--Logo Carolina-->
+            <div class="d-flex justify-content-center">
+                <img class="marca" src="../../assets/Marca.png" alt="Marca">
+            </div>
+
         <router-outlet></router-outlet>
     </div>
 </div>
