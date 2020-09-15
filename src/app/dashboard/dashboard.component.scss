@@ -1,3 +1,15 @@
+#dashboard-main-container {
+    height: 100vh;
+}
+
+#navbar-items {
+    height: calc(100% - 160px);
+}
+
+ul.nav {
+    flex-direction: column;
+}
+
 .buscador{
     padding: 0px;
     margin: 30px 0px 60px 5px;
