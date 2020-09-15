@@ -9,6 +9,9 @@ import { LoginComponent } from './login/login.component';
 import { HelpComponent } from './help/help.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { RegistroUComponent } from './registro-u/registro-u.component';
+import { SesionComponent } from './sesion/sesion.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { IniciousuarioComponent } from './iniciousuario/iniciousuario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { RegistroUComponent } from './registro-u/registro-u.component';
     LoginComponent,
     HelpComponent,
     UsuarioComponent,
-    RegistroUComponent
+    RegistroUComponent,
+    SesionComponent,
+    DashboardComponent,
+    IniciousuarioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,18 @@
+.marca{
+    padding: 0px;
+    width: 40%;
+    height: auto;
+}
+section{
+    & form{
+        border-radius: 10px;
+        .linea1{
+            width: 50%;
+        }
+    }
+    .utitulo{
+        margin: 15px 0px 15px 0px;
+    }
+    
+    
+}
