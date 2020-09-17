@@ -5,6 +5,7 @@ import { HelpComponent } from './help/help.component';
 import { HomeComponent } from './home/home.component';
 import { IniciousuarioComponent } from './iniciousuario/iniciousuario.component';
 import { LoginComponent } from './login/login.component';
+import { RecuperarpassComponent } from './recuperarpass/recuperarpass.component';
 import { RegistroUComponent } from './registro-u/registro-u.component';
 import { SesionComponent } from './sesion/sesion.component';
 import { UsuarioComponent } from './usuario/usuario.component';
@@ -22,6 +23,10 @@ const routes: Routes = [
       {
         path: 'login',
         component: LoginComponent,
+      },
+      {
+        path: 'recuperarpass',
+        component: RecuperarpassComponent,
       },
       {
         path: 'help',

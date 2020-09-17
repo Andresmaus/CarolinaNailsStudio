@@ -1,14 +1,19 @@
 <header>
-      <nav class="navegador navbar navbar-light" style="background-color:#e3f2fd;">
-              <a class="navbar-brand" href="index.html"><input type="image" src="../../assets/Logo.png" alt="logo"></a>
-              
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" [routerLink]="['/login']" *ngIf="router.url !== '/login'">Iniciar Sesión</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" [routerLink]="['/help']" *ngIf="router.url !== '/help'">Ayuda</a>
-                </li>
-              </ul>
-      </nav>      
+    <nav class="navegador navbar navbar-light" style="background-color:#e3f2fd;">
+      <a class="navbar-brand" href="index.html">
+        <svg id="homebot" width="36px" height="36px" viewBox="0 0 16 16" class="bi bi-house-door card" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+          <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+          </svg>
+      </a>
+            
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/login']" *ngIf="router.url !== '/login'">Iniciar Sesión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/help']" *ngIf="router.url !== '/help'">Ayuda</a>
+        </li>
+      </ul>
+    </nav>      
 </header>

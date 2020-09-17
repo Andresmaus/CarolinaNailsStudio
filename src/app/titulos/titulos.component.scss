@@ -12,7 +12,12 @@ header{
         border-radius: 5px;
         border: 0;
         outline: none;
-    }  
+    }
+    & svg{
+        margin-left: 20px;
+        color: white;
+        background: rgb(23, 120, 230);
+    }
 }
 
 

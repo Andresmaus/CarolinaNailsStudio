@@ -12,6 +12,7 @@ import { RegistroUComponent } from './registro-u/registro-u.component';
 import { SesionComponent } from './sesion/sesion.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { IniciousuarioComponent } from './iniciousuario/iniciousuario.component';
+import { RecuperarpassComponent } from './recuperarpass/recuperarpass.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { IniciousuarioComponent } from './iniciousuario/iniciousuario.component'
     RegistroUComponent,
     SesionComponent,
     DashboardComponent,
-    IniciousuarioComponent
+    IniciousuarioComponent,
+    RecuperarpassComponent
   ],
   imports: [
     BrowserModule,
