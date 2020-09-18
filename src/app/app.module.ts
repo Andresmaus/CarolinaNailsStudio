@@ -13,6 +13,9 @@ import { SesionComponent } from './sesion/sesion.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { IniciousuarioComponent } from './iniciousuario/iniciousuario.component';
 import { RecuperarpassComponent } from './recuperarpass/recuperarpass.component';
+import { NovedadesComponent } from './novedades/novedades.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { PromocionesComponent } from './promociones/promociones.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { RecuperarpassComponent } from './recuperarpass/recuperarpass.component'
     SesionComponent,
     DashboardComponent,
     IniciousuarioComponent,
-    RecuperarpassComponent
+    RecuperarpassComponent,
+    NovedadesComponent,
+    ServiciosComponent,
+    PromocionesComponent
   ],
   imports: [
     BrowserModule,

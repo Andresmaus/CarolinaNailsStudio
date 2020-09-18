@@ -5,8 +5,11 @@ import { HelpComponent } from './help/help.component';
 import { HomeComponent } from './home/home.component';
 import { IniciousuarioComponent } from './iniciousuario/iniciousuario.component';
 import { LoginComponent } from './login/login.component';
+import { NovedadesComponent } from './novedades/novedades.component';
+import { PromocionesComponent } from './promociones/promociones.component';
 import { RecuperarpassComponent } from './recuperarpass/recuperarpass.component';
 import { RegistroUComponent } from './registro-u/registro-u.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 import { SesionComponent } from './sesion/sesion.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 
@@ -49,6 +52,18 @@ const routes: Routes = [
       {
         path: 'iniciousuario',
         component: IniciousuarioComponent,
+      },
+      {
+        path: 'novedades',
+        component: NovedadesComponent,
+      },
+      {
+        path: 'servicios',
+        component: ServiciosComponent,
+      },
+      {
+        path: 'promociones',
+        component: PromocionesComponent,
       }
     ]
   }
